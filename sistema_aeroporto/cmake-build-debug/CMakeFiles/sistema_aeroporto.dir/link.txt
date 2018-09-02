@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/sistema_aeroporto.dir/main.c.o  -o sistema_aeroporto 

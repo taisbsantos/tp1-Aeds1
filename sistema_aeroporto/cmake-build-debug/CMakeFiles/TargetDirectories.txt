@@ -1,0 +1,3 @@
+/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir
