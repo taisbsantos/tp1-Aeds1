@@ -2,6 +2,10 @@
 // Created by tais on 31/08/18.
 //
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
 typedef struct {
     int id_voo;
     int id_pista_decolagem;
@@ -11,7 +15,10 @@ typedef struct {
     char aeroporto_decolagem[50];
 
 }Voo;
-
+typedef struct{
+    Voo item_voo;
+    struct CelLista_De_Voos *prox;
+}CelLista_De_Voos;
 void inicia_voo(Voo *IVoo);
 
 void set_id_voo(Voo *IVoo, int novo_id);
