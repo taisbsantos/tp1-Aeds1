@@ -1,11 +1,4 @@
-/snap/clion/37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto
--- The C compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+/snap/clion/38/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug

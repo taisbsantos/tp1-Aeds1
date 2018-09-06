@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/main.c" "/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/main.c.o"
+  "/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/sources/main.c" "/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/sources/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

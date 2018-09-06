@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/main.c">
+		<Unit filename="/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/sources/main.c">
 			<Option target="sistema_aeroporto"/>
 		</Unit>
 		<Unit filename="/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/CMakeLists.txt">

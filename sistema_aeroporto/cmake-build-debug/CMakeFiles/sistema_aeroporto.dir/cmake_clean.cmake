@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sistema_aeroporto.dir/main.c.o"
+  "CMakeFiles/sistema_aeroporto.dir/sources/main.c.o"
   "sistema_aeroporto.pdb"
   "sistema_aeroporto"
 )

@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/sistema_aeroporto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sistema_aeroporto.dir/flags.make
 
-CMakeFiles/sistema_aeroporto.dir/main.c.o: CMakeFiles/sistema_aeroporto.dir/flags.make
-CMakeFiles/sistema_aeroporto.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sistema_aeroporto.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sistema_aeroporto.dir/main.c.o   -c /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/main.c
+CMakeFiles/sistema_aeroporto.dir/sources/main.c.o: CMakeFiles/sistema_aeroporto.dir/flags.make
+CMakeFiles/sistema_aeroporto.dir/sources/main.c.o: ../sources/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sistema_aeroporto.dir/sources/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sistema_aeroporto.dir/sources/main.c.o   -c /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/sources/main.c
 
-CMakeFiles/sistema_aeroporto.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sistema_aeroporto.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/main.c > CMakeFiles/sistema_aeroporto.dir/main.c.i
+CMakeFiles/sistema_aeroporto.dir/sources/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sistema_aeroporto.dir/sources/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/sources/main.c > CMakeFiles/sistema_aeroporto.dir/sources/main.c.i
 
-CMakeFiles/sistema_aeroporto.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sistema_aeroporto.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/main.c -o CMakeFiles/sistema_aeroporto.dir/main.c.s
+CMakeFiles/sistema_aeroporto.dir/sources/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sistema_aeroporto.dir/sources/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/sources/main.c -o CMakeFiles/sistema_aeroporto.dir/sources/main.c.s
 
 # Object files for target sistema_aeroporto
 sistema_aeroporto_OBJECTS = \
-"CMakeFiles/sistema_aeroporto.dir/main.c.o"
+"CMakeFiles/sistema_aeroporto.dir/sources/main.c.o"
 
 # External object files for target sistema_aeroporto
 sistema_aeroporto_EXTERNAL_OBJECTS =
 
-sistema_aeroporto: CMakeFiles/sistema_aeroporto.dir/main.c.o
+sistema_aeroporto: CMakeFiles/sistema_aeroporto.dir/sources/main.c.o
 sistema_aeroporto: CMakeFiles/sistema_aeroporto.dir/build.make
 sistema_aeroporto: CMakeFiles/sistema_aeroporto.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/repositorios/tp1-Aeds1/sistema_aeroporto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable sistema_aeroporto"

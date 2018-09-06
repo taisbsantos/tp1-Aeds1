@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/38/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/38/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /media/tais/29aed11e-f1b2-4f7c-9f3a-0cf5068318f0/home/tais/re
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/38/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/38/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ sistema_aeroporto/fast:
 	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/build
 .PHONY : sistema_aeroporto/fast
 
-main.o: main.c.o
+sources/main.o: sources/main.c.o
 
-.PHONY : main.o
+.PHONY : sources/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/main.c.o
-.PHONY : main.c.o
+sources/main.c.o:
+	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/sources/main.c.o
+.PHONY : sources/main.c.o
 
-main.i: main.c.i
+sources/main.i: sources/main.c.i
 
-.PHONY : main.i
+.PHONY : sources/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/main.c.i
-.PHONY : main.c.i
+sources/main.c.i:
+	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/sources/main.c.i
+.PHONY : sources/main.c.i
 
-main.s: main.c.s
+sources/main.s: sources/main.c.s
 
-.PHONY : main.s
+.PHONY : sources/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/main.c.s
-.PHONY : main.c.s
+sources/main.c.s:
+	$(MAKE) -f CMakeFiles/sistema_aeroporto.dir/build.make CMakeFiles/sistema_aeroporto.dir/sources/main.c.s
+.PHONY : sources/main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sistema_aeroporto"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... sources/main.o"
+	@echo "... sources/main.i"
+	@echo "... sources/main.s"
 .PHONY : help
 
 

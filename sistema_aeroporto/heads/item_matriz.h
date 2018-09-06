@@ -5,7 +5,7 @@
 typedef struct {
     Lista_de_voos lista_voos;
     int qtd_voos;
-    horario_ult_att;
+    char horario_ult_att[4];
 
 } Item_Matriz;
 
