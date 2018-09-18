@@ -1,4 +1,4 @@
-# Install script for directory: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS
+# Install script for directory: /home/tais/Documentos/TP DE AEDS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

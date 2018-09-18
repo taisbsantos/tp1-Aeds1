@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS"
+CMAKE_SOURCE_DIR = "/home/tais/Documentos/TP DE AEDS"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/tais/Documentos/TP DE AEDS/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TP_DE_AEDS.dir/depend.make
@@ -57,30 +57,90 @@ include CMakeFiles/TP_DE_AEDS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TP_DE_AEDS.dir/flags.make
 
-CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
-CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o: ../sources/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o   -c "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/sources/main.c"
+CMakeFiles/TP_DE_AEDS.dir/main.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
+CMakeFiles/TP_DE_AEDS.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TP_DE_AEDS.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/main.c.o   -c "/home/tais/Documentos/TP DE AEDS/main.c"
 
-CMakeFiles/TP_DE_AEDS.dir/sources/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/sources/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/sources/main.c" > CMakeFiles/TP_DE_AEDS.dir/sources/main.c.i
+CMakeFiles/TP_DE_AEDS.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tais/Documentos/TP DE AEDS/main.c" > CMakeFiles/TP_DE_AEDS.dir/main.c.i
 
-CMakeFiles/TP_DE_AEDS.dir/sources/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/sources/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/sources/main.c" -o CMakeFiles/TP_DE_AEDS.dir/sources/main.c.s
+CMakeFiles/TP_DE_AEDS.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tais/Documentos/TP DE AEDS/main.c" -o CMakeFiles/TP_DE_AEDS.dir/main.c.s
+
+CMakeFiles/TP_DE_AEDS.dir/voo.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
+CMakeFiles/TP_DE_AEDS.dir/voo.c.o: ../voo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TP_DE_AEDS.dir/voo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/voo.c.o   -c "/home/tais/Documentos/TP DE AEDS/voo.c"
+
+CMakeFiles/TP_DE_AEDS.dir/voo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/voo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tais/Documentos/TP DE AEDS/voo.c" > CMakeFiles/TP_DE_AEDS.dir/voo.c.i
+
+CMakeFiles/TP_DE_AEDS.dir/voo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/voo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tais/Documentos/TP DE AEDS/voo.c" -o CMakeFiles/TP_DE_AEDS.dir/voo.c.s
+
+CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
+CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o: ../lista_de_voos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o   -c "/home/tais/Documentos/TP DE AEDS/lista_de_voos.c"
+
+CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tais/Documentos/TP DE AEDS/lista_de_voos.c" > CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.i
+
+CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tais/Documentos/TP DE AEDS/lista_de_voos.c" -o CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.s
+
+CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
+CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o: ../matriz_voos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o   -c "/home/tais/Documentos/TP DE AEDS/matriz_voos.c"
+
+CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tais/Documentos/TP DE AEDS/matriz_voos.c" > CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.i
+
+CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tais/Documentos/TP DE AEDS/matriz_voos.c" -o CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.s
+
+CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o: CMakeFiles/TP_DE_AEDS.dir/flags.make
+CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o: ../item_matriz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o   -c "/home/tais/Documentos/TP DE AEDS/item_matriz.c"
+
+CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tais/Documentos/TP DE AEDS/item_matriz.c" > CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.i
+
+CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tais/Documentos/TP DE AEDS/item_matriz.c" -o CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.s
 
 # Object files for target TP_DE_AEDS
 TP_DE_AEDS_OBJECTS = \
-"CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o"
+"CMakeFiles/TP_DE_AEDS.dir/main.c.o" \
+"CMakeFiles/TP_DE_AEDS.dir/voo.c.o" \
+"CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o" \
+"CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o" \
+"CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o"
 
 # External object files for target TP_DE_AEDS
 TP_DE_AEDS_EXTERNAL_OBJECTS =
 
-TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o
+TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/main.c.o
+TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/voo.c.o
+TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o
+TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o
+TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o
 TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/build.make
 TP_DE_AEDS: CMakeFiles/TP_DE_AEDS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable TP_DE_AEDS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable TP_DE_AEDS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP_DE_AEDS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +153,6 @@ CMakeFiles/TP_DE_AEDS.dir/clean:
 .PHONY : CMakeFiles/TP_DE_AEDS.dir/clean
 
 CMakeFiles/TP_DE_AEDS.dir/depend:
-	cd "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/tais/Documentos/TP DE AEDS/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tais/Documentos/TP DE AEDS" "/home/tais/Documentos/TP DE AEDS" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/TP_DE_AEDS.dir/depend
 

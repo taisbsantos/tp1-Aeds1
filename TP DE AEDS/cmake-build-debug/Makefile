@@ -48,10 +48,10 @@ RM = /opt/clion/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS"
+CMAKE_SOURCE_DIR = "/home/tais/Documentos/TP DE AEDS"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/tais/Documentos/TP DE AEDS/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,140 @@ TP_DE_AEDS/fast:
 	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/build
 .PHONY : TP_DE_AEDS/fast
 
-sources/main.o: sources/main.c.o
+item_matriz.o: item_matriz.c.o
 
-.PHONY : sources/main.o
+.PHONY : item_matriz.o
 
 # target to build an object file
-sources/main.c.o:
-	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o
-.PHONY : sources/main.c.o
+item_matriz.c.o:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o
+.PHONY : item_matriz.c.o
 
-sources/main.i: sources/main.c.i
+item_matriz.i: item_matriz.c.i
 
-.PHONY : sources/main.i
+.PHONY : item_matriz.i
 
 # target to preprocess a source file
-sources/main.c.i:
-	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/sources/main.c.i
-.PHONY : sources/main.c.i
+item_matriz.c.i:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.i
+.PHONY : item_matriz.c.i
 
-sources/main.s: sources/main.c.s
+item_matriz.s: item_matriz.c.s
 
-.PHONY : sources/main.s
+.PHONY : item_matriz.s
 
 # target to generate assembly for a file
-sources/main.c.s:
-	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/sources/main.c.s
-.PHONY : sources/main.c.s
+item_matriz.c.s:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.s
+.PHONY : item_matriz.c.s
+
+lista_de_voos.o: lista_de_voos.c.o
+
+.PHONY : lista_de_voos.o
+
+# target to build an object file
+lista_de_voos.c.o:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o
+.PHONY : lista_de_voos.c.o
+
+lista_de_voos.i: lista_de_voos.c.i
+
+.PHONY : lista_de_voos.i
+
+# target to preprocess a source file
+lista_de_voos.c.i:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.i
+.PHONY : lista_de_voos.c.i
+
+lista_de_voos.s: lista_de_voos.c.s
+
+.PHONY : lista_de_voos.s
+
+# target to generate assembly for a file
+lista_de_voos.c.s:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.s
+.PHONY : lista_de_voos.c.s
+
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/main.c.s
+.PHONY : main.c.s
+
+matriz_voos.o: matriz_voos.c.o
+
+.PHONY : matriz_voos.o
+
+# target to build an object file
+matriz_voos.c.o:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o
+.PHONY : matriz_voos.c.o
+
+matriz_voos.i: matriz_voos.c.i
+
+.PHONY : matriz_voos.i
+
+# target to preprocess a source file
+matriz_voos.c.i:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.i
+.PHONY : matriz_voos.c.i
+
+matriz_voos.s: matriz_voos.c.s
+
+.PHONY : matriz_voos.s
+
+# target to generate assembly for a file
+matriz_voos.c.s:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.s
+.PHONY : matriz_voos.c.s
+
+voo.o: voo.c.o
+
+.PHONY : voo.o
+
+# target to build an object file
+voo.c.o:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/voo.c.o
+.PHONY : voo.c.o
+
+voo.i: voo.c.i
+
+.PHONY : voo.i
+
+# target to preprocess a source file
+voo.c.i:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/voo.c.i
+.PHONY : voo.c.i
+
+voo.s: voo.c.s
+
+.PHONY : voo.s
+
+# target to generate assembly for a file
+voo.c.s:
+	$(MAKE) -f CMakeFiles/TP_DE_AEDS.dir/build.make CMakeFiles/TP_DE_AEDS.dir/voo.c.s
+.PHONY : voo.c.s
 
 # Help Target
 help:
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... TP_DE_AEDS"
-	@echo "... sources/main.o"
-	@echo "... sources/main.i"
-	@echo "... sources/main.s"
+	@echo "... item_matriz.o"
+	@echo "... item_matriz.i"
+	@echo "... item_matriz.s"
+	@echo "... lista_de_voos.o"
+	@echo "... lista_de_voos.i"
+	@echo "... lista_de_voos.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... matriz_voos.o"
+	@echo "... matriz_voos.i"
+	@echo "... matriz_voos.s"
+	@echo "... voo.o"
+	@echo "... voo.i"
+	@echo "... voo.s"
 .PHONY : help
 
 

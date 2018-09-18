@@ -51,6 +51,7 @@ int main() {
     remover_lista_voo(&lista.primeiro->item_voo,&lista,&teste3);
     printf("Lista vazia? %d\n",verifica_lista_vazia(&lista));
     imprime_lista_voo(lista);
+    printf("ITS OKAY");
 
 
     //Testes de Item_matriz.c//

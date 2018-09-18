@@ -1,4 +1,4 @@
-The system is: Linux - 4.14.68-1-MANJARO - x86_64
+The system is: Linux - 4.14.69-1-MANJARO - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_89e08/fast"
-/usr/bin/make -f CMakeFiles/cmTC_89e08.dir/build.make CMakeFiles/cmTC_89e08.dir/build
-make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_89e08.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_89e08.dir/testCCompiler.c.o   -c "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_89e08
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89e08.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_89e08.dir/testCCompiler.c.o  -o cmTC_89e08 
-make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f045f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f045f.dir/build.make CMakeFiles/cmTC_f045f.dir/build
+make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f045f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f045f.dir/testCCompiler.c.o   -c "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_f045f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f045f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f045f.dir/testCCompiler.c.o  -o cmTC_f045f 
+make[1]: Leaving directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_04d54/fast"
-/usr/bin/make -f CMakeFiles/cmTC_04d54.dir/build.make CMakeFiles/cmTC_04d54.dir/build
-make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_04d54
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04d54.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o  -o cmTC_04d54 
+Run Build Command:"/usr/bin/make" "cmTC_a3958/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3958.dir/build.make CMakeFiles/cmTC_a3958.dir/build
+make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a3958
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3958.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o  -o cmTC_a3958 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper
@@ -46,24 +46,24 @@ Thread model: posix
 gcc version 8.2.1 20180831 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04d54' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI4lWEN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_04d54 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04d54' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3958' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8ArWoy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a3958 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3958' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_04d54/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_04d54.dir/build.make CMakeFiles/cmTC_04d54.dir/build]
-  ignore line: [make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_04d54]
-  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04d54.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o  -o cmTC_04d54 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a3958/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a3958.dir/build.make CMakeFiles/cmTC_a3958.dir/build]
+  ignore line: [make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a3958]
+  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3958.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o  -o cmTC_a3958 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper]
@@ -73,13 +73,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.1 20180831 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04d54' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI4lWEN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_04d54 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a3958' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8ArWoy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a3958 /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../.. CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccI4lWEN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8ArWoy.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -94,7 +94,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_04d54] ==> ignore
+    arg [cmTC_a3958] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/crtbeginS.o] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../..]
-    arg [CMakeFiles/cmTC_04d54.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a3958.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -128,17 +128,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_75dfe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_75dfe.dir/build.make CMakeFiles/cmTC_75dfe.dir/build
-make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_75dfe.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_75dfe.dir/feature_tests.c.o   -c "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_75dfe
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75dfe.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_75dfe.dir/feature_tests.c.o  -o cmTC_75dfe 
-make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_19d8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19d8a.dir/build.make CMakeFiles/cmTC_19d8a.dir/build
+make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19d8a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_19d8a.dir/feature_tests.c.o   -c "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_19d8a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19d8a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_19d8a.dir/feature_tests.c.o  -o cmTC_19d8a 
+make[1]: Leaving directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -148,17 +148,17 @@ make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ef95/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ef95.dir/build.make CMakeFiles/cmTC_8ef95.dir/build
-make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ef95.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_8ef95.dir/feature_tests.c.o   -c "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_8ef95
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ef95.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_8ef95.dir/feature_tests.c.o  -o cmTC_8ef95 
-make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c1495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1495.dir/build.make CMakeFiles/cmTC_c1495.dir/build
+make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1495.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c1495.dir/feature_tests.c.o   -c "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_c1495
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1495.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c1495.dir/feature_tests.c.o  -o cmTC_c1495 
+make[1]: Leaving directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -168,17 +168,17 @@ make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c644d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c644d.dir/build.make CMakeFiles/cmTC_c644d.dir/build
-make[1]: Entering directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c644d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c644d.dir/feature_tests.c.o   -c "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_c644d
-/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c644d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c644d.dir/feature_tests.c.o  -o cmTC_c644d 
-make[1]: Leaving directory '/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d3586/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3586.dir/build.make CMakeFiles/cmTC_d3586.dir/build
+make[1]: Entering directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3586.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_d3586.dir/feature_tests.c.o   -c "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_d3586
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3586.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d3586.dir/feature_tests.c.o  -o cmTC_d3586 
+make[1]: Leaving directory '/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes

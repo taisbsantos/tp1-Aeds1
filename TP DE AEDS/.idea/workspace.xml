@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/sources/item_matriz.c" line="32" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/item_matriz.c" line="33" mnemonic="9" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
@@ -14,61 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdc2cf4-da05-4269-9b00-a2416e293119" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/sistema_aeroporto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/3.12.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/CMakeFiles/sistema_aeroporto.dir/sources/main.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/sistema_aeroporto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/cmake-build-debug/sistema_aeroporto.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/heads/item_matriz.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/heads/lista_de_voos.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/heads/matriz_voos.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/heads/voo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/sources/item_matriz.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/sources/lista_de_voos.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/sources/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/sources/matriz_voos.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sistema_aeroporto/sources/voo.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sources/main.c" beforeDir="false" />
-    </list>
+    <list default="true" id="acdc2cf4-da05-4269-9b00-a2416e293119" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,171 +27,216 @@
     <session id="-1304383776">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="5550" />
-          <entry key="h" value="410" />
+          <entry key="c" value="13279" />
+          <entry key="h" value="871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="5960" />
+          <entry key="ObjectiveC" value="14150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="5" />
-          <entry key="h" value="6" />
+          <entry key="c" value="11" />
+          <entry key="h" value="13" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="11" />
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1960063324">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="c" value="6" />
+          <entry key="h" value="7" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="c" value="220" />
+          <entry key="h" value="13" />
+          <entry key="txt" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="17" />
+          <entry key="ObjectiveC" value="233" />
         </counts>
       </usages-collector>
     </session>
     <session id="-1648039449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="c" value="106" />
-          <entry key="h" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="111" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="c" value="8" />
-          <entry key="h" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="11" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1873487005">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="c" value="1" />
-          <entry key="h" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="2" />
+          <entry key="ObjectiveC" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="214">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/voo.c">
+        <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sources/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="484">
+              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documentos/TP DE AEDS/sources/main.c">
+        <entry file="file://$PROJECT_DIR$/voo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#38#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heads/item_matriz.h">
+        <entry file="file://$PROJECT_DIR$/voo.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="544">
+              <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lista_de_voos.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/lista_de_voos.c">
+        <entry file="file://$PROJECT_DIR$/lista_de_voos.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="544">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heads/lista_de_voos.h">
+        <entry file="file://$PROJECT_DIR$/item_matriz.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item_matriz.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matriz_voos.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matriz_voos.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/heads/matriz_voos.h" />
         <option value="$PROJECT_DIR$/heads/voo.h" />
-        <option value="$PROJECT_DIR$/sources/voo.c" />
-        <option value="$PROJECT_DIR$/sources/matriz_voos.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/sources/item_matriz.c" />
         <option value="$PROJECT_DIR$/heads/item_matriz.h" />
-        <option value="$PROJECT_DIR$/sources/main.c" />
         <option value="$PROJECT_DIR$/sources/lista_de_voos.c" />
         <option value="$PROJECT_DIR$/heads/lista_de_voos.h" />
+        <option value="$PROJECT_DIR$/heads/matriz_voos.h" />
+        <option value="$PROJECT_DIR$/sources/matriz_voos.c" />
+        <option value="$PROJECT_DIR$/sources/voo.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/item_matriz.c" />
+        <option value="$PROJECT_DIR$/item_matriz.h" />
+        <option value="$PROJECT_DIR$/voo.c" />
+        <option value="$PROJECT_DIR$/voo.h" />
+        <option value="$PROJECT_DIR$/lista_de_voos.h" />
+        <option value="$PROJECT_DIR$/lista_de_voos.c" />
+        <option value="$PROJECT_DIR$/matriz_voos.h" />
+        <option value="$PROJECT_DIR$/matriz_voos.c" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
@@ -257,16 +248,17 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="640" />
-    <option name="width" value="640" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="828" />
     <option name="height" value="984" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,30 +266,22 @@
               <item name="TP_DE_AEDS" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP DE AEDS" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TP_DE_AEDS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP DE AEDS" type="462c0819:PsiDirectoryNode" />
-              <item name="heads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP_DE_AEDS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP DE AEDS" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sources" />
     </key>
   </component>
@@ -314,7 +298,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TP_DE_AEDS">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TP_DE_AEDS" RUN_TARGET_NAME="TP_DE_AEDS" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -347,58 +331,69 @@
       <workItem from="1536611732221" duration="5152000" />
       <workItem from="1536665514472" duration="6270000" />
       <workItem from="1536697670024" duration="5492000" />
-      <workItem from="1536799266148" duration="1015000" />
-      <workItem from="1536800744094" duration="1890000" />
-      <workItem from="1536802944349" duration="125000" />
-      <workItem from="1536803121791" duration="34000" />
+      <workItem from="1536799266148" duration="2063000" />
+      <workItem from="1536933026645" duration="1349000" />
+      <workItem from="1537011796518" duration="1749000" />
+      <workItem from="1537015287181" duration="13029000" />
+      <workItem from="1537045717873" duration="239000" />
+      <workItem from="1537049813775" duration="329000" />
+      <workItem from="1537055819284" duration="6717000" />
+      <workItem from="1537101443922" duration="12796000" />
+      <workItem from="1537120642996" duration="7378000" />
+      <workItem from="1537150373623" duration="3836000" />
+      <workItem from="1537218880406" duration="11217000" />
+      <workItem from="1537232642095" duration="3452000" />
+      <workItem from="1537238295891" duration="596000" />
+      <workItem from="1537266720846" duration="29000" />
+      <workItem from="1537272566623" duration="1340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39661000" />
+    <option name="totallyTimeSpent" value="102716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2031722" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23489426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6688103" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3697749" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1971299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19983819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35063437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.37600923" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32984293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -412,83 +407,86 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sources/voo.h" />
+    <entry file="file://$PROJECT_DIR$/sources/main.c" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.285/lista_de_voos.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heads/voo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heads/matriz_voos.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/matriz_voos.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/item_matriz.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sistema_aeroporto/sources/voo.c" />
-    <entry file="file://$PROJECT_DIR$/sources/voo.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heads/item_matriz.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/lista_de_voos.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heads/lista_de_voos.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documentos/TP DE AEDS/sources/main.c">
+    <entry file="file://$PROJECT_DIR$/../main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret selection-end-line="159" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item_matriz.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item_matriz.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matriz_voos.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matriz_voos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#38#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/main.c">
+    <entry file="file://$PROJECT_DIR$/voo.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="544">
+          <caret line="94" column="38" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista_de_voos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lista_de_voos.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/sources/main.c" "/run/media/tais/fdaf8709-4bc3-475c-bb76-b13eb4a2da7b/tais/repositorios/tp1-Aeds1/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/sources/main.c.o"
+  "/home/tais/Documentos/TP DE AEDS/item_matriz.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o"
+  "/home/tais/Documentos/TP DE AEDS/lista_de_voos.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o"
+  "/home/tais/Documentos/TP DE AEDS/main.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/main.c.o"
+  "/home/tais/Documentos/TP DE AEDS/matriz_voos.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o"
+  "/home/tais/Documentos/TP DE AEDS/voo.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/voo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

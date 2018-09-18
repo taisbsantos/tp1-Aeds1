@@ -14,6 +14,7 @@ void inicia_voo(Voo *IVoo){
     IVoo->hora_decolagem[0]='\0';
     IVoo->hora_previsao_pouso[0]='\0';
 }
+//funções set alteram o valor item, funções get retornam o valor do item.
 void set_id_voo(Voo *IVoo, int novo_id){
     IVoo->id_voo=novo_id;
 }
@@ -65,6 +66,7 @@ char get_aeroporto_decolagem(Voo *IVoo){
     return IVoo->aeroporto_decolagem;
 }
 
+//Para comparar o voo partiu-se da premissa que cada caracter possui um valor númerico, ......................... terminar de comentar
 int comparar_horas_voo(Voo *IVoo, Voo *IIVoo){
     int Voo1,Voo2;
     Voo1=IVoo->hora_decolagem[0]*600+IVoo->hora_decolagem[1]*60+IVoo->hora_decolagem[3]*10+IVoo->hora_decolagem[4];
