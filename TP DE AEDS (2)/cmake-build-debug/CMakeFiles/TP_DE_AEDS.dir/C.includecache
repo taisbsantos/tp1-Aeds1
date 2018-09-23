@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tais/Documentos/TP DE AEDS (2)/item_matriz.c
+item_matriz.h
+/home/tais/Documentos/TP DE AEDS (2)/item_matriz.h
+
+/home/tais/Documentos/TP DE AEDS (2)/item_matriz.h
+lista_de_voos.h
+/home/tais/Documentos/TP DE AEDS (2)/lista_de_voos.h
+
+/home/tais/Documentos/TP DE AEDS (2)/lista_de_voos.c
+lista_de_voos.h
+/home/tais/Documentos/TP DE AEDS (2)/lista_de_voos.h
+
+/home/tais/Documentos/TP DE AEDS (2)/lista_de_voos.h
+voo.h
+/home/tais/Documentos/TP DE AEDS (2)/voo.h
+
+/home/tais/Documentos/TP DE AEDS (2)/main.c
+matriz_voos.h
+/home/tais/Documentos/TP DE AEDS (2)/matriz_voos.h
+
+/home/tais/Documentos/TP DE AEDS (2)/matriz_voos.c
+matriz_voos.h
+/home/tais/Documentos/TP DE AEDS (2)/matriz_voos.h
+
+/home/tais/Documentos/TP DE AEDS (2)/matriz_voos.h
+item_matriz.h
+/home/tais/Documentos/TP DE AEDS (2)/item_matriz.h
+
+/home/tais/Documentos/TP DE AEDS (2)/voo.c
+voo.h
+/home/tais/Documentos/TP DE AEDS (2)/voo.h
+
+/home/tais/Documentos/TP DE AEDS (2)/voo.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+
