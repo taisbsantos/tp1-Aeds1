@@ -191,6 +191,8 @@ void Matriz_Ultima_Alteracao(Matriz_voos *Matriz){
 
 void Matriz_primeira_Alteracao(Matriz_voos *Matriz){
     int i,j,p,d;
+    p=0;
+    d=0;
     char menor[6];
     strcpy(menor,"23:59");
     for(i=0;i<24;i++){
