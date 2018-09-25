@@ -26,7 +26,6 @@ void inserir_lista_voo(Lista_De_Voos *lista, Voo voo){
     proximo=lista->primeiro->prox;
     while(proximo!=NULL){
         if(strcmp(proximo->item_voo.hora_decolagem,voo.hora_decolagem)>=0){
-            printf("Inserir completo");
             break;
         }
         atual=proximo;
@@ -54,30 +53,35 @@ int remover_lista_voo(Lista_De_Voos *lista, int id){
     return 0;
 }
 
-
+//Retorna um determinado voo da lista, baseado no ID do voo//
 Voo* procura_lista_voo(Lista_De_Voos *Lista, int id ){
     CelLista_De_Voos *auxiliar;
     auxiliar = Lista->primeiro->prox;
-    while(auxiliar!=NULL){
-        if(id==auxiliar->item_voo.id_voo) {
+    while (auxiliar != NULL) {
+        if (id == auxiliar->item_voo.id_voo) {
             printf("Voo encontrado.\n");
             return &auxiliar->item_voo;
-        }
-        else{
+        } else {
             auxiliar = auxiliar->prox;
         }
     }
-    //printf("Erro: ID desconhecido.\n");
-
 }
 
 void imprime_lista_voo(Lista_De_Voos Lista){
-    CelLista_De_Voos *auxiliar;
-    auxiliar=Lista.primeiro->prox;
-        while(auxiliar!=NULL){
-            printf("\n--------------------------------\n");
-            print_voo(&auxiliar->item_voo);
-            auxiliar= auxiliar->prox;
-        }
-    printf("\n--------------------------------\n");
+    CelLista_De_Voos *Aux;
+
+    Aux = Lista.primeiro->prox;
+
+    while (Aux != NULL){
+        printf("\n ---------------------------------------------\n");
+        printf("ID do voo: %d\n",get_id_voo(Aux));
+        printf("ID da pista de decolagem: %d\n", get_id_pista_decolagem(Aux));
+        printf("Aeroporto de Decolagem: %s\n", get_aeroporto_decolagem(Aux));
+        printf("Aeroporto de Pouso: %s\n", get_aeroporto_pouso(Aux));
+        printf("Hora de Decolagem: %s\n", get_hora_decolagem(Aux));
+        printf("Hora de Pouso: %s\n", get_hora_previsao_pouso(Aux));
+        printf("\n --------------------------------------------- \n");
+
+        Aux = Aux->prox;
+    }
 }

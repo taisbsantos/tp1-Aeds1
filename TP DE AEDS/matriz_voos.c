@@ -3,6 +3,7 @@
 //
 #include "matriz_voos.h"
 
+//Incializa a Matriz//
 void Inicializar_Matriz(Matriz_voos *MatrizVoo){
     int i,j;
     for(i=0;i<24;i++){
@@ -14,6 +15,8 @@ void Inicializar_Matriz(Matriz_voos *MatrizVoo){
     Alterar_Tempo(MatrizVoo);
 }
 
+
+//Insere elementos na Matriz//
 void Inserir_Elementos_Matriz(Matriz_voos *Matriz,Voo Voo){
     int pouso,decolagem;
     char Pouso[6],Decolagem[6];
@@ -27,10 +30,11 @@ void Inserir_Elementos_Matriz(Matriz_voos *Matriz,Voo Voo){
     Alterar_Tempo(Matriz);
     Alterar_Tempo_Item(&Matriz->Elemento_Matriz[pouso][decolagem]);
 }
-
+//Remove um determinado voo da matriz//
 void Remover_Voo_Matriz(Matriz_voos *Matriz,int ID){
-    int i,j;
+    int i,j,alternador;
     Lista_De_Voos *auxLista=NULL;
+    alternador=0;
     for(i=0;i<24;i++) {
         for (j=0;j<24;j++) {
             auxLista=&Matriz->Elemento_Matriz[i][j].Lista;
@@ -40,30 +44,39 @@ void Remover_Voo_Matriz(Matriz_voos *Matriz,int ID){
                 Alterar_Tempo(Matriz);
                 Alterar_Tempo_Item(&Matriz->Elemento_Matriz[i][j]);
                 printf("Removido com sucesso!\n");
+                alternador=1;
                 break;
             }
         }
     }
-    printf("Voo não encontrado\n");
+    if(alternador==0){
+        printf("Voo nao encontrado\n");
+    }
 }
 
+//Procura um determinado voo baseado no seu número de identificação//
 void Procurar_Voo_Matriz(Matriz_voos *Matriz,int ID){
-    int i,j;
+    int i,j,alternador;
     Lista_De_Voos *auxLista=NULL;
     Voo *auxVoo=NULL;
+    alternador==0;
     for(i=0;i<24;i++) {
         for (j = 0; j < 24; j++) {
             auxLista=&Matriz->Elemento_Matriz[i][j].Lista;
             auxVoo=procura_lista_voo(auxLista,ID);
             if(auxVoo!=NULL){
-                print_voo(auxVoo);
+                imprime_lista_voo(Matriz->Elemento_Matriz[i][j].Lista);
+                alternador==1;
                 break;
                 }
             }
         }
-        printf("Voo nao encontrado!\n");
+    if(alternador==0){
+        printf("Voo nao encontrado\n");
+        }
     }
 
+    //Imprime toda a matriz baseado em um horário de decolagem e de pouso//
 void Imprime_Matriz_DecPouso(Matriz_voos *Matriz, char *D, char *P){
 
     int Decolagem,Pouso;
@@ -76,6 +89,7 @@ void Imprime_Matriz_DecPouso(Matriz_voos *Matriz, char *D, char *P){
 
 }
 
+//Imprime a matriz baseado em um horário de decolagem//
 void Imprime_Matriz_Dec(Matriz_voos *Matriz, char *D){
     int Decolagem,i;
     char Dec[6];
@@ -86,6 +100,7 @@ void Imprime_Matriz_Dec(Matriz_voos *Matriz, char *D){
     }
 }
 
+//Imprime a matriz baseado em um horário de pouso//
 void Imprime_Matriz_Pouso(Matriz_voos *Matriz, char *P){
     int i,Pouso;
     char Pou[6];
@@ -96,17 +111,19 @@ void Imprime_Matriz_Pouso(Matriz_voos *Matriz, char *P){
     }
 }
 
+//Imprime toda a matriz//
 void Imprime_Matriz_All(Matriz_voos *Matriz){
     int i,j;
     for(i=0;i<24;i++){
         for(j=0;j<24;j++) {
             if((verifica_lista_vazia(&Matriz->Elemento_Matriz[j][i].Lista))!=1) {
-                imprime_lista_voo(Matriz->Elemento_Matriz[j][i].Lista);
+                imprime_lista_voo(Get_Lista_voos(&Matriz->Elemento_Matriz[j][i]));
             }
         }
     }
 }
 
+//Percorrer a matriz toda, e calcula qual o item voo que possui mais voos//
 void Maior_Quantidade_Voos(Matriz_voos *Matriz){
     int maior, maiorp,maiord,i,j;
     maior=0;
@@ -129,19 +146,20 @@ void Maior_Quantidade_Voos(Matriz_voos *Matriz){
     printf("Horario de decolagem com maior numero de voos: %d\n",maiord);
 }
 
+//Percorrer a matriz toda, e calcula qual o item voo que possui menos voos//
 void Menor_Quantidade_Voos(Matriz_voos *Matriz){
     int menor, menorp,menord,i,j,alternador;
-    alternador==0;
+    alternador=0;
     for(i=0;i<24;i++){
         for(j=0;j<24;j++) {
             if(Matriz->Elemento_Matriz[j][i].Quantidade_voos!=0 && alternador==0){
-                menor=Matriz->Elemento_Matriz[j][i].Quantidade_voos;
+                menor=Get_Quantidade_Voos(&Matriz->Elemento_Matriz[j][i]);
                 menorp=j;
                 menord=i;
                 alternador=1;
             }
             if(Matriz->Elemento_Matriz[j][i].Quantidade_voos<=menor && Matriz->Elemento_Matriz[j][i].Quantidade_voos!=0){
-                menor=Matriz->Elemento_Matriz[j][i].Quantidade_voos;
+                menor=Get_Quantidade_Voos(&Matriz->Elemento_Matriz[j][i]);
                 menorp=j;
                 menord=i;
             }
@@ -152,14 +170,15 @@ void Menor_Quantidade_Voos(Matriz_voos *Matriz){
     printf("Horario de decolagem com menor numero de voos: %d\n",menord);
 }
 
+
 void Matriz_Ultima_Alteracao(Matriz_voos *Matriz){
     int i,j,p,d;
     char maior[6];
     strcpy(maior,"00:00");
     for(i=0;i<24;i++){
         for(j=0;j<24;j++) {
-            if((strcmp(maior,Matriz->Elemento_Matriz[j][i].horario_ultimo))<=0){
-                strcpy(maior,Matriz->Elemento_Matriz[j][i].horario_ultimo);
+            if((strcmp(maior,Get_Horario_Ultimo(&Matriz->Elemento_Matriz[j][i])))<=0){
+                strcpy(maior,Get_Horario_Ultimo(&Matriz->Elemento_Matriz[j][i]));
                 p=j;
                 d=i;
             }
@@ -176,8 +195,8 @@ void Matriz_primeira_Alteracao(Matriz_voos *Matriz){
     strcpy(menor,"23:59");
     for(i=0;i<24;i++){
         for(j=0;j<24;j++) {
-            if((strcmp(menor,Matriz->Elemento_Matriz[j][i].horario_ultimo))>=0){
-                strcpy(menor,Matriz->Elemento_Matriz[j][i].horario_ultimo);
+            if((strcmp(menor,Get_Horario_Ultimo(&Matriz->Elemento_Matriz[j][i])))>=0){
+                strcpy(menor,Get_Horario_Ultimo(&Matriz->Elemento_Matriz[j][i]));
                 p=j;
                 d=i;
             }
@@ -211,6 +230,7 @@ void Matriz_esparca(Matriz_voos *Matriz){
     }
 }
 
+//Muda o tempo da Matriz para o tempo atual//
 void Alterar_Tempo(Matriz_voos *Matriz){
 
     int horas,minutos,dia,mes,ano;
@@ -229,20 +249,16 @@ void Alterar_Tempo(Matriz_voos *Matriz){
     strcpy(Matriz->data,data);
 
 }
-
+//Muda o tempo do Item matriz para o tempo atual//
 void Alterar_Tempo_Item(Item_Matriz *Item){
-    int horas,minutos,dia,mes,ano;
-    char tempo[6],data[10];
+    int horas,minutos;
+    char tempo[6];
     time_t now;
     time(&now);
     struct tm *local = localtime(&now);
     horas=local->tm_hour;
     minutos=local->tm_min;
-    dia=local->tm_mday;
-    mes=local->tm_mon+1;
-    ano=local->tm_year+1900;
     sprintf(tempo,"%d:%d",horas,minutos);
-    sprintf(data,"%d/%d/%d",dia,mes,ano);
     strcpy(Item->horario_ultimo,tempo);
 
 }

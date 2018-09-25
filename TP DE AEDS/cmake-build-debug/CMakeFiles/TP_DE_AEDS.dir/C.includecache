@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/tais/Documentos/TP DE AEDS/item_matriz.h
+C:/Users/Athos/CLionProjects/TP DE AEDS/lista_de_voos.c
 lista_de_voos.h
-/home/tais/Documentos/TP DE AEDS/lista_de_voos.h
+C:/Users/Athos/CLionProjects/TP DE AEDS/lista_de_voos.h
 
-/home/tais/Documentos/TP DE AEDS/lista_de_voos.h
+C:/Users/Athos/CLionProjects/TP DE AEDS/lista_de_voos.h
 voo.h
-/home/tais/Documentos/TP DE AEDS/voo.h
+C:/Users/Athos/CLionProjects/TP DE AEDS/voo.h
 
-/home/tais/Documentos/TP DE AEDS/main.c
-matriz_voos.h
-/home/tais/Documentos/TP DE AEDS/matriz_voos.h
-
-/home/tais/Documentos/TP DE AEDS/matriz_voos.h
-item_matriz.h
-/home/tais/Documentos/TP DE AEDS/item_matriz.h
-
-/home/tais/Documentos/TP DE AEDS/voo.h
+C:/Users/Athos/CLionProjects/TP DE AEDS/voo.h
 stdio.h
 -
 stdlib.h

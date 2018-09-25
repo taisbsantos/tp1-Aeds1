@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tais/Documentos/TP DE AEDS/item_matriz.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.o"
-  "/home/tais/Documentos/TP DE AEDS/lista_de_voos.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.o"
-  "/home/tais/Documentos/TP DE AEDS/main.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/main.c.o"
-  "/home/tais/Documentos/TP DE AEDS/matriz_voos.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.o"
-  "/home/tais/Documentos/TP DE AEDS/voo.c" "/home/tais/Documentos/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/voo.c.o"
+  "C:/Users/Athos/CLionProjects/TP DE AEDS/item_matriz.c" "C:/Users/Athos/CLionProjects/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/item_matriz.c.obj"
+  "C:/Users/Athos/CLionProjects/TP DE AEDS/lista_de_voos.c" "C:/Users/Athos/CLionProjects/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/lista_de_voos.c.obj"
+  "C:/Users/Athos/CLionProjects/TP DE AEDS/main.c" "C:/Users/Athos/CLionProjects/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/main.c.obj"
+  "C:/Users/Athos/CLionProjects/TP DE AEDS/matriz_voos.c" "C:/Users/Athos/CLionProjects/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/matriz_voos.c.obj"
+  "C:/Users/Athos/CLionProjects/TP DE AEDS/voo.c" "C:/Users/Athos/CLionProjects/TP DE AEDS/cmake-build-debug/CMakeFiles/TP_DE_AEDS.dir/voo.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

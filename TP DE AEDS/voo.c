@@ -6,7 +6,8 @@
 
 //Inicia o tipo voo //
 void inicia_voo(Voo *IVoo){
-    IVoo->id_voo = (rand()%1000);
+    //set_id_voo(IVoo);
+    IVoo->id_voo = rand()%10000;
     IVoo->id_pista_decolagem=0;
     IVoo->aeroporto_decolagem[0]='\0';
     IVoo->aeroporto_pouso[0]='\0';
@@ -17,12 +18,11 @@ void inicia_voo(Voo *IVoo){
 //Retorna o ID do voo//
 int get_id_voo(Voo *Ivoo){
     return Ivoo->id_voo;
-
 }
 
 //Muda o ID do voo//
-void set_id_voo(Voo *IVoo, int novo_id){
-    IVoo->id_voo=novo_id;
+void set_id_voo(Voo *IVoo, int novoid){
+    IVoo->id_voo = novoid;
 }
 
 //Muda o ID da pista de decolagem//
@@ -74,32 +74,4 @@ void set_aeroporto_decolagem(Voo *IVoo,char aeroporto_d[]){
 //retorna o aeroporto de decolagem//
 char* get_aeroporto_decolagem(Voo *IVoo){
     return IVoo->aeroporto_decolagem;
-}
-
-//Compara duas horas e verifica qual é maior//
-int comparar_horas_voo(char horaI[], char horaII[]){
-    int Hora1,Hora2;
-    Hora1=horaI[0]*600+horaI[1]*60+horaI[3]*10+horaI[4];
-    Hora2=horaII[0]*600+horaII[1]*60+horaII[3]*10+horaII[4];
-    if(Hora1>Hora2){
-        return 1;
-    }
-    if(Hora2>horaI){
-        return 2;
-    }
-    if(Hora1==Hora2){
-        return 0;
-    }
-}
-
-//Imprime todos os dados do tipo voo//
-void print_voo(Voo *IVoo){
-    printf("\n ---------------------------------------------\n");
-    printf("ID do voo: %d\n",get_id_voo(IVoo));
-    printf("ID da pista de decolagem: %d\n",get_id_pista_decolagem(IVoo));
-    printf("Aeroporto de decolagem: %s\n",get_aeroporto_decolagem(IVoo));
-    printf("Aeroporto de pouso: %s\n",get_aeroporto_pouso(IVoo));
-    printf("Hora de decolagem: %s\n",get_hora_decolagem(IVoo));
-    printf("Hora prevista do pouso: %s\n",get_hora_previsao_pouso(IVoo));
-    printf("\n --------------------------------------------- \n");
 }

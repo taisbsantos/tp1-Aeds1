@@ -27,11 +27,3 @@ void Matriz_primeira_Alteracao(Matriz_voos *Matriz);
 void Matriz_esparca(Matriz_voos *Matriz);
 void Alterar_Tempo(Matriz_voos *Matriz);
 void Alterar_Tempo_Item(Item_Matriz *Item);
-
-/*
-void horario_Dec_PrevisaoPou_maior_num_voos();
-void horario_Dec_PrevisaoPou_menor_num_voos();
-void lista_voos_mais_alterada_recentemente();
-void lista_voos_menos_alterada_recentemente();
-void verifica_matriz_esparca();
- */

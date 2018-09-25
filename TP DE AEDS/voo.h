@@ -21,7 +21,7 @@ void inicia_voo(Voo *IVoo);
 
 int get_id_voo(Voo *Ivoo);
 
-void set_id_voo(Voo *IVoo, int novo_id);
+void set_id_voo(Voo *IVoo, int novoid);
 
 void set_id_pista_decolagem(Voo *IVoo, int novo_id_pista);
 
@@ -44,5 +44,3 @@ void set_aeroporto_decolagem(Voo *IVoo,char aeroporto_d[]);
 char* get_aeroporto_decolagem(Voo *IVoo);
 
 int comparar_horas_voo(char horaI[], char horaII[]);
-
-void print_voo(Voo *IVoo);
